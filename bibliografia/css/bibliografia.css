@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hina+Mincho&family=IBM+Plex+Sans+Thai&display=swap');
+
+body{
+    width: 95%;
+    margin: auto;
+    max-width: 1200px;
+
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    line-height: 1.5;
+    background: url(https://i1.wp.com/www.finisgeekis.com/wp-content/uploads/2018/12/20181217013639_1.jpg?resize=1340%2C754); 
+}
+
+main{
+    background: #b4b4b4a1;
+    padding: 5px 40px;
+    margin-top: 20px;
+    border-radius: 10px;
+    height: 800px;
+}
+
+#menu ul{
+    text-align: center;
+    background-color: #000000a1;
+    
+    margin-top: 20px;
+    border-radius: 10px;
+
+    list-style: none;
+    padding: 0;
+}
+
+#menu ul li{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    display: inline;
+}
+
+#menu ul li a{
+    color: rgb(253, 253, 253);
+    text-decoration: none;
+    padding: 20px;
+    display: inline-block;
+    transition: background .4s;
+}
+
+#menu ul li a:hover{
+    color: powderblue;
+    text-decoration: none;
+    padding: 20px;
+    display: inline-block;
+}
+
+#gris{
+    height: 250px;
+    width: 700px;
+    float: right;
+    margin: 40px 60px;
+}
+
+table {
+    margin: 0 auto;
+}
+
+table, th, td {
+    border: 1px solid slategrey;
+    border-collapse: collapse;
+}
+
+tr:hover {
+    background-color: rgb(120, 173, 173);
+}
