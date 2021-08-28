@@ -1,0 +1,115 @@
+body {
+    background-image: url(https://cdn.cloudflare.steamstatic.com/steam/apps/683320/ss_a155ad5423e11e3e764a1a270dcf4f30323f0a35.1920x1080.jpg?t=1619204715);
+}
+
+.checkbox .trace {
+    background-color: rgb(220 79 89);
+}
+
+h3 {
+    font-size: small;
+    color: black;
+}
+
+ul li {
+    font-size: small;
+    color: black;
+}
+
+ul li a {
+    font-size: small;
+    color: black;
+}
+
+a:hover {
+    color: #1b888b;
+    font-size: small;
+}
+
+main {
+    background: #ffffffa1;
+    padding: 5px 40px;
+    margin-top: 20px;
+    border-radius: 10px;
+    height: 800px;
+    width: 1000px;
+    margin-left: 300px;
+    margin-top: 50px;
+}
+
+.container {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 3rem;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 90%;
+}
+
+.card {
+    width: 200px;
+    height: 200px;
+    margin: 3rem 0 0 0;
+    display: flex;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(198, 126, 247);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: grayscale(0.2);
+    color: black;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
+.card-wrapper {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.card:hover {
+    width: 300px;
+    height: 300px;
+    margin: 3rem 0 0 0;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(218, 163, 255);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: unset;
+    color: black;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
+#card1 {
+    background-image: url(https://mms.businesswire.com/media/20181107005335/en/689026/5/1.jpg);
+}
+
+#card2 {
+    background-image: url(https://i.pinimg.com/originals/30/87/8d/30878d826de22694fda83e7d34a7ed8b.jpg);
+}
+
+#card3 {
+    background-image: url(https://images8.alphacoders.com/947/thumb-1920-947346.jpg);
+}
+
+#card4 {
+    background-image: url(https://liderancacomvalores.com.br/wp-content/uploads/2019/11/inteligencia-artificial.jpg);
+}

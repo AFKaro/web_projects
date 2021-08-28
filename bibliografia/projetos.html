@@ -1,49 +1,82 @@
 <!DOCTYPE html>
 <html lang='pt'>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <title>Bibliografia</title>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://www.pikpng.com/pngl/b/287-2879527_purple-star-png-451699-clipart.png" />
+    <link rel="stylesheet" href="css/bibliografia.css">
+    <link rel="stylesheet" href="css/projetos.css">
+    <title>Bibliografia</title>
+</head>
 
-        <link rel="stylesheet" href="css/bibliografia.css">
-        <link rel="stylesheet" href="css/projetos.css">
-    </head>
+<body>
+    <header class="header">
+        <div class="header-principal">
+            <div class="check">
+                <div class="check-wrapper">
+                    <input type="checkbox" id="toggle">
+                    <label class="checkbox" for="toggle">
+                        <div class="trace"></div>
+                        <div class="trace"></div>
+                        <div class="trace"></div>
+                    </label>
 
-    <body>
-        <nav id="menu">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="sobre.html">Sobre</a></li>
-                <li><a href="experiencia.html">Experiência</a></li>
-                <li><a href="projetos.html">Projetos</a></li>
-                <li><a href="artigos.html">Artigos</a></li>
-            </ul>
-        </nav>
-        
-        <main>
-            <h1>Projetos</h1>
-            <div id="pavo">
-                <h3>Pavo</h3>
-                <h3>Logo</h3>
-                <h3>Descrição</h3>
-                <h3>Icone do Git com link</h3>
+                    <div class="menu"></div>
+                    <nav class="itens-menu">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="sobre.html">Sobre</a></li>
+                            <li><a href="experiencia.html">Experiência</a></li>
+                            <li><a href="projetos.html">Projetos</a></li>
+                            <li><a href="artigos.html">Artigos</a></li>
+                        </ul>
+                    </nav>
+                </div>
             </div>
+        </div>
+    </header>
 
-            <div id="e-ticket">
-                <h3>e-ticket</h3>
-                <h3>Logo</h3>
-                <h3>Descrição</h3>
-                <h3>Icone do Git com link</h3>
+    <h1>Projetos</h1>
+    <main class="container">
+        <div class="card-container">
+            <div class="card">
+                <div class="card-wrapper">
+                    <h2>Pavo</h2>
+                    <p>A minimalist compiler</p>
+                </div>
             </div>
-
-            <div id="Hikas">
-                <h3>Hikas</h3>
-                <h3>Logo</h3>
-                <h3>Descrição</h3>
-                <h3>Icone do Git com link</h3>
+            <div class="card-text">
+                Pavo, um compilador minimalista feito para a cadeira de Compiladores da Universidade Católica de
+                Pernambuco (UNICAP).
             </div>
+        </div>
 
-        </main>
-    </body>
+        <div class="card-container">
+            <div class="card">
+                <div class="card-wrapper">
+                    <h2>e-ticket</h2>
+                    <p>Gerenciador de Reservas</p>
+                </div>
+            </div>
+            <div class="card-text">
+                O e-ticket é um gerenciador de reservas e entretenimentos de Auditórios, Cinemas e Teatros.
+            </div>
+        </div>
+
+        <div class="card-container">
+            <div class="card">
+                <div class="card-wrapper">
+                    <h2>Hikas</h2>
+                    <p>Jogo Musical Programável</p>
+                </div>
+            </div>
+            <div class="card-text">
+                Hikas é um jogo musical que estimula de diversas formas o aprendizado musical e sonoro.
+            </div>
+        </div>
+        </div>
+    </main>
+</body>
+
 </html>

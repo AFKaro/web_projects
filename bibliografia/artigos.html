@@ -3,47 +3,57 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-        <title>Bibliografia</title>
-
         <link rel="stylesheet" href="css/bibliografia.css">
-        <link rel="stylesheet" href="css/projetos.css">
+        <link rel="stylesheet" href="css/artigos.css">
+        <title>Bibliografia</title>
     </head>
 
     <body>
-        <nav id="menu">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="sobre.html">Sobre</a></li>
-                <li><a href="experiencia.html">Experiência</a></li>
-                <li><a href="projetos.html">Projetos</a></li>
-                <li><a href="artigos.html">Artigos</a></li>
-            </ul>
-        </nav>
-        
-        <main>
-            <h1>Artigos</h1>
-            <div id="CBIC">
-                <h3>CBIC</h3>
-                <h3>Logo</h3>
-                <h3>Descrição</h3>
-                <h3>Icone do Git com link</h3>
-            </div>
+       <header class="header">
+            <div class="header-principal">
+                <div class="check">
+                    <div class="check-wrapper">
+                        <input type="checkbox" id="toggle">
+                        <label class="checkbox" for="toggle">
+                            <div class="trace"></div>
+                            <div class="trace"></div>
+                            <div class="trace"></div>
+                        </label>
 
-            <div id="PIBIC">
-                <h3>PIBIC</h3>
-                <h3>Logo</h3>
-                <h3>Descrição</h3>
-                <h3>Icone do Git com link</h3>
+                        <div class="menu"></div>
+                        <nav class="itens-menu">
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="sobre.html">Sobre</a></li>
+                                <li><a href="experiencia.html">Experiência</a></li>
+                                <li><a href="projetos.html">Projetos</a></li>
+                                <li><a href="artigos.html">Artigos</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
             </div>
+       </header>
 
-            <div id="NR">
-                <h3>NR</h3>
-                <h3>Logo</h3>
-                <h3>Descrição</h3>
-                <h3>Icone do Git com link</h3>
+       <h1>Artigos</h1>
+       <main class="container">
+           <div class="card-container">
+                <div class="card">
+                    <div class="card-wrapper">
+                        <h2>CBIC 2021</h2>
+                        <p>XV Conferência Brasileira de Inteligência Computacional</p>
+                        <p>Algoritmos de Aprendizagem Supervisionada com Conjuntos de Dados Desbalanceados para Classificação de Requisitos Não-Funcionais</p>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <div class="card-wrapper">
+                        <h2>PIBIC 2020/2021</h2>
+                        <p>Programa Institucional de Bolsas de Iniciação Cientifica</p>
+                        <p>Algoritmos de Aprendizagem Supervisionada com Conjuntos de Dados Desbalanceados para Classificação de Requisitos Não-Funcionais (Multilayer Perceptron)</p>
+                    </div>
+                </div>
             </div>
-
         </main>
     </body>
 </html>

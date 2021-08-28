@@ -3,72 +3,82 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-        <title>Bibliografia</title>
-
+        <link rel="shortcut icon" href="https://www.pikpng.com/pngl/b/287-2879527_purple-star-png-451699-clipart.png"/>
         <link rel="stylesheet" href="css/bibliografia.css">
+        <link rel="stylesheet" href="css/experiencia.css">
+        <title>Bibliografia</title>
     </head>
 
     <body>
-        <nav id="menu">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="sobre.html">Sobre</a></li>
-                <li><a href="experiencia.html">Experiência</a></li>
-                <li><a href="projetos.html">Projetos</a></li>
-                <li><a href="artigos.html">Artigos</a></li>
-            </ul>
-        </nav>
-        
-        <main>
-            <h1>Experiência</h1>
-            <table>
-                <thead>
-                    <tr>
-                        <th style="width:100px">Quando</th>
-                        <th style="width:300px">O que</th>
-                        <th style="width:500px">Onde</th>
-                    </tr>
-                </thead>
+       <header class="header">
+            <div class="header-principal">
+                <div class="check">
+                    <div class="check-wrapper">
+                        <input type="checkbox" id="toggle">
+                        <label class="checkbox" for="toggle">
+                            <div class="trace"></div>
+                            <div class="trace"></div>
+                            <div class="trace"></div>
+                        </label>
 
-                <tbody>
-                    <tr>
-                        <td>2016-2018</td>
-                        <td>Técnico em Rede de Computadores</td>
-                        <td>SENAI</td>
-                    </tr>
+                        <div class="menu"></div>
+                        <nav class="itens-menu">
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="sobre.html">Sobre</a></li>
+                                <li><a href="experiencia.html">Experiência</a></li>
+                                <li><a href="projetos.html">Projetos</a></li>
+                                <li><a href="artigos.html">Artigos</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+       </header>
 
-                    <tr>
-                        <td>2019-2023</td>
-                        <td>Graduação em Ciência da Computação</td>
-                        <td>Universidade Católica de Pernambuco</td>
-                    </tr>
+       <h1>Experiência</h1>
+       <main class="container">
+            <div class="card-container">
+                <div class="card" id="card1">
+                    <div class="card-wrapper">
+                        <h2>2016-2018</h2>
+                        <p>SENAI</p>
+                        <p>Técnico em Rede de Computadores</p>
+                    </div>
+                </div>
+                
+                <div class="card" id="card2">
+                    <div class="card-wrapper">
+                        <h2>2019-2023</h2>
+                        <p>Universidade Católica de Pernambuco (UNICAP)</p>
+                        <p>Graduação em Ciência da Computação</p>
+                    </div>
+                </div>
 
-                    <tr>
-                        <td>2021</td>
-                        <td>Bolsa em Desenvolvimento, Pesquisa e Inovação</td>
-                        <td>SENAI</td>
-                    </tr>
+                <div class="card" id="card3">
+                    <div class="card-wrapper">
+                        <h2>2020-2021</h2>
+                        <p>PIBIC FASA/UNICAP</p>
+                        <p>Bolsa em Iniciação Científica</p>
+                    </div>
+                </div>
 
-                    <tr>
-                        <td>2016-2018</td>
-                        <td>Técnico em Rede de Computadores</td>
-                        <td>Instituto SENAI de Inovação para Tecnologias da Informação e Comunicação (ISI-TICs)</td>
-                    </tr>
+                <div class="card" id="card4">
+                    <div class="card-wrapper">
+                        <h2>2021</h2>
+                        <p>SENAI</p>
+                        <p>Bolsa em Desenvolvimento, Pesquisa e Inovação</p>
+                    </div>
+                </div>
 
-                    <tr>
-                        <td>2020-2021</td>
-                        <td>Bolsa em Iniciação Científica</td>
-                        <td>PIBIC FASA/UNICAP</td>
-                    </tr>
-
-                    <tr>
-                        <td>2021-2022</td>
-                        <td>Bolsa em Iniciação Científica</td>
-                        <td>PIBIC FASA/UNICAP</td>
-                    </tr>
-                </tbody>
-            </table>
+                <div class="card" id="card5">
+                    <div class="card-wrapper">
+                        <h2>2021-2022</h2>
+                        <p>PIBIC FASA/UNICAP</p>
+                        <p>Bolsa em Iniciação Científica</p>
+                    </div>
+                </div>
+            </div>
         </main>
     </body>
 </html>
