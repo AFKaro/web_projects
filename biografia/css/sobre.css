@@ -9,6 +9,14 @@ body {
 h3 {
     font-size: small;
     color: black;
+    margin-right: 450px;
+}
+
+h2 {
+    font-size: smaller;
+    margin-right: 450px;
+    text-align: center;
+    letter-spacing: 2px;
 }
 
 ul li {
@@ -44,6 +52,28 @@ main {
     flex-direction: column;
     justify-content: center;
     margin: 3rem;
+}
+
+.card-foto {
+    margin-left: 500px;
+    margin-top: -300px;
+    width: 200px;
+    height: 200px;
+    border-radius: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(198, 126, 247);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: grayscale(0.2);
+    color: black;
+    cursor: pointer;
+}
+
+#foto{
+    background-image: url(https://media-exp1.licdn.com/dms/image/C4D03AQEf1DFi4jSIyA/profile-displayphoto-shrink_200_200/0/1613270225261?e=1636588800&v=beta&t=XXVy6wniF4JOnI_pJR32qyRvM00HP2cK8oPtB0AQbBI);
 }
 
 .card-container {

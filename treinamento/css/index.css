@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hina+Mincho&family=IBM+Plex+Sans+Thai&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    color: rgb(253 249 246);
+    background-color: #fcf8f5;
+    color: black;
+}
+
+.header {
+    height: 90vh;
+    width: 90vw;
+    background-image: url(https://i.pinimg.com/originals/b9/d5/c3/b9d5c39b0974b4a74495fc5699f5dea9.jpg);
+    background-color: #fdf9f6;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: top;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    box-sizing: border-box;
+    padding: 0 112px;
+    position: relative;
+    margin-top: -200px;
+}
+
+#title{
+    font-size: 50px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #2f3438;
+    font-weight: bold;
+    margin-left: 550px;
+}
+
+h1 {
+    font-size: xx-large;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: large;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: bold;
+}
+
+main {
+    background: #7ac1c18f;
+    padding: 5px 40px;
+    margin-top: 20px;
+    border-radius: 10px;
+    width: 1000px;
+    margin-left: 300px;
+    margin-top: 50px;
+}
+
+table{
+    color: #2f3438;
+}
