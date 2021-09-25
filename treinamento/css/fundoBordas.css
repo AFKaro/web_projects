@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;1,900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    background: #FFF url(https://i.pinimg.com/originals/b9/d5/c3/b9d5c39b0974b4a74495fc5699f5dea9.jpg) no-repeat right top;
+}
+
+h1 {
+    font-size: xx-large;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: black;
+    font-weight: bold;
+    background-color: #ff0d0d82;
+    border: 2px solid #0b620b;
+}

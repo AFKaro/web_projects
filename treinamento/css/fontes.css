@@ -1,0 +1,28 @@
+body {
+    background: #FFF url(https://i.pinimg.com/originals/b9/d5/c3/b9d5c39b0974b4a74495fc5699f5dea9.jpg) no-repeat right top;
+}
+
+.paragrafo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    text-decoration: underline black;
+}
+
+a {
+    text-decoration: none;
+    font: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+main {
+    background: #ffdadaa1;
+    padding: 5px 40px;
+    margin-top: 20px;
+    border-radius: 10px;
+    height: 800px;
+    width: 1000px;
+    margin-left: 300px;
+    margin-top: 50px;
+}

@@ -10,16 +10,24 @@
 
 <body>
     <header class="header">
-        <h1 id="title">Login</h1>
+        <h1 id="title">Cadastro de Usuário</h1>
     </header>
     <main class="container">
 
         <form action="https://www.w3schools.com/action_page.php">
             <fieldset>
-                <legend>Login</legend>
-                Nome: <input type="text" name="usuário"><br>
+                <legend>Cadastro de Usuário</legend>
+                Nome: <input type="text" name="nome"><br>
+                E-mail: <input type="email" name="email" value="teste@gmail.com"><br>
                 Senha: <input type="password" name="senha"><br>
-                <input type="submit" value="Login">
+                Data de Nascimento: <input type="date" name="dataNascimento"><br>
+                Sexo: <select name="sexo">
+                    <option value="Feminino">Feminino</option>
+                    <option value="Maculino">Masculino</option>
+                    <option value="Outro">Outro</option>
+                </select><br>
+                Estado: <input type="text" name="mensagem"><br>
+                <input type="submit" value="Enviar">
             </fieldset>
         </form>
 
